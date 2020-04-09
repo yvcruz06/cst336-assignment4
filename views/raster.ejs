@@ -1,0 +1,51 @@
+<%- include ('templates/header'); -%>
+
+        <header>
+            <h1> Raster Format </h1>
+        </header>
+        <nav>
+            <hr>
+            <a href="/">Main</a>
+            <a id="currentPage" href="raster">Raster</a>
+            <a href="vector">Vector</a>
+            <a href="compound">Compound</a>
+        </nav>
+
+        <br/><br/>
+
+        <main>
+            <figure id="raster1">
+                <img src="img/raster-img.jpg" alt="Raster Image" />
+            </figure>
+
+            <br/><br/>
+
+            <div id="r_info">
+                <mark>Raster images</mark> are digital images consisting of pixels arranged in x and y coordinates (sometimes z if it is a 3D image).
+                <p>It can also be referred to as bitmap graphics.</p>
+                <p>Their file size depends on the amount of pixels in the image.</p>
+
+                <br/><br/>
+
+                <span id="example1">Examples:</span>
+                <ul>
+                    <li>JPEG</li>
+                    <li>GIF</li>
+                    <li>PNG</li>
+                    <li>TIFF</li>
+                    <li>BAT</li>
+                    <li>BMP</li>
+                    <li>BPG</li>
+                </ul>
+            </div>
+
+            <br/><br/>
+
+            <figure id="raster2">
+                <img src="img/jif-or-gif.gif" alt="Raster Gif" />
+            </figure>
+
+        </main>
+
+<%- include ('templates/footer'); -%> 
+ 
